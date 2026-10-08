@@ -1,5 +1,7 @@
 # Calculadora de tarifas de traslados
 
+![Captura de la calculadora de traslados](capturas/ventana.png)
+
 Programa en Python que calcula cuánto cobrar por un traslado en camioneta, según los kilómetros recorridos y el horario del viaje.
 
 Es un proyecto de práctica con el que estoy aprendiendo Python y Git, y que además resuelve una necesidad real de mi emprendimiento.
@@ -19,7 +21,20 @@ Y aplica estas reglas:
 
 ## Cómo usarlo
 
-Requiere Python 3. Desde la terminal, en la carpeta del proyecto:
+
+Requiere Python 3. En Debian o Ubuntu, la versión con ventana necesita además:
+
+```bash
+sudo apt install python3-tk
+```
+
+Versión con ventana:
+
+```bash
+python3 ventana.py
+```
+
+Versión de terminal:
 
 ```bash
 python3 calculadora.py
@@ -33,5 +48,5 @@ python3 calculadora.py
 - [x] V2: tarifas separadas por tramo y recargo nocturno
 - [x] V3: cálculo ordenado en una función
 - [x] V4: validación de datos ingresados
-- [ ] V5: interfaz gráfica de escritorio
+- [x] V5: interfaz gráfica de escritorio
 - [ ] Guardar historial de viajes
