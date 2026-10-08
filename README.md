@@ -15,7 +15,7 @@ El programa pide tres datos:
 Y aplica estas reglas:
 
 - Cada tramo tiene su propia tarifa por kilómetro.
-- Si el viaje empieza entre las 22:00 y las 5:59, se suma un recargo nocturno del 25%.
+- Si el viaje es nocturno (de 22:00 a 6:00), responder "s" para sumar un recargo del 25%
 
 ## Cómo usarlo
 
