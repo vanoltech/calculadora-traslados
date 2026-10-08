@@ -27,7 +27,11 @@ python3 calculadora.py
 
 ## Estado del proyecto
 
+## Estado del proyecto
+
 - [x] V1: cálculo por kilómetros
 - [x] V2: tarifas separadas por tramo y recargo nocturno
-- [ ] Validación de datos ingresados
+- [x] V3: cálculo ordenado en una función
+- [ ] V4: validación de datos ingresados
+- [ ] V5: interfaz gráfica de escritorio
 - [ ] Guardar historial de viajes
